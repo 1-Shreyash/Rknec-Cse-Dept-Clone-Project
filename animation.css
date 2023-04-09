@@ -1,0 +1,7 @@
+.btn1:hover,.btn2:hover{
+    background-color:black;
+    transform:scaleX(1.08);
+}
+.btn1,.btn2{
+    transition: 0.1s;
+}
