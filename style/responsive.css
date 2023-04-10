@@ -1,0 +1,47 @@
+@media screen and (max-width:1300px) {
+    .outbox{
+        width: 250px;
+        /* font-size: 13px !important; */
+    }
+    .about{
+        width: 600px;
+        margin: 0 50px;
+    }
+    .programs{
+        width: 30vw;
+    }
+    .photo{
+        width: 20vw;
+        height: 20vw;
+        background-size: 20vw 20vw;
+        /* right:-50px; */
+        left: 40vw;
+        background-position: center;
+    }
+    .hod{
+        font-size: 1vw;
+    }
+}
+@media screen and (max-width:1000px) {
+    .btnt{
+        right: -160px;
+    }
+    .photo{
+        right:-20px;
+        background-position: center;
+    }
+}
+@media screen and (max-width:600px) {
+    .boxp{
+        font-size: 7px;
+    }
+    .boxh{
+        font-size: 10px!important;
+    }
+    .about p,.about h4{
+        font-size: small;
+    }
+    .about h3{
+        font-size: medium;
+    }
+}

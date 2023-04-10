@@ -1,0 +1,24 @@
+.btn1:hover,.btn2:hover{
+    background-color:black;
+    transform:scaleX(1.08);
+}
+.btn1,.btn2{
+    transition: 0.1s;
+}
+.inbox:hover{
+    background-color:rgba(0,0,0,0.9);
+    transform: scaleX(1.05);
+}
+.inbox{
+    transition: 0.1s;
+}
+.branch:hover, .photo:hover{
+    transform: scale(1.05);
+    box-shadow: 0.1px 0.1px 100px rgba(0,0,0,0.2) inset;
+}
+.branch{
+    transition: 0.1s;
+}
+.boxp:hover{
+    color:white;
+}
