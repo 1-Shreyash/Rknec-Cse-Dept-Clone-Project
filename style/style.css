@@ -139,12 +139,12 @@ a{
     top: 23px;
     margin-bottom: 100px;
 }
-.programs h4{
+.heads{
     font-family: cursive !important;
     color: #A52A2A;
     margin: 1.4vw 0;
     text-align: center;
-    font-size: 1.2vw!important;
+    font-size: 1.2vw;
 }
 .branch{
     font-size: 1.2vw;

@@ -8,14 +8,14 @@
         margin: 0 50px;
     }
     .programs{
-        width: 30vw;
+        width: 40vw;
     }
     .photo{
         width: 20vw;
         height: 20vw;
         background-size: 20vw 20vw;
         /* right:-50px; */
-        left: 40vw;
+        left: 45vw;
         background-position: center;
     }
     .hod{
@@ -35,8 +35,26 @@
     .boxp{
         font-size: 7px;
     }
+    .programs{
+        left: -8vw;
+    }
     .boxh{
         font-size: 10px!important;
+    }
+    .heads{
+        font-size: 3vw!important;
+    }
+    .branch{
+        font-size: 3vw;
+    }
+    .photo{
+        left:37vw;
+    }
+    .inbox{
+        font-size: 3.4vw!important;
+        height: fit-content;
+        margin: 0.5vw 0;
+        padding: 0.7vw 0.7vw 0.7vw 1vw;
     }
     .about p,.about h4{
         font-size: small;
