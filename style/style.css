@@ -8,19 +8,23 @@ a{
     text-decoration: none;
 }
 .imgC{
-    background-image: url("Csebanner.jpeg");
+    background-image: url("img2.jpeg");
     background-size: 100% 100%;
     width: 100%;
     height: 24vw;
     border-top: 7px solid #223C4F;
     display: flex;
+    text-shadow: 2px 2px 10px black;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     font-family: "Roboto Slab", serif;
+    font-weight: 700;
+    position: relative;
+    overflow: hidden;
 }
 .imgC .heads{
-    padding: 3vw 0 0 0;
+    padding: 10vw 0 0 0;
     font-size: 4.7vw;
     color: white;
     font-weight:100 !important;
@@ -33,12 +37,27 @@ a{
     position: relative;
     top: 10px;
 }
+.slider{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.slider img{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+.slide{
+    transition: 1s;
+}
 .box{
     width: 13vw;
     height: 8vw;
     background-color: #223C4F;
     position: absolute;
-    top: 7px;
+    top: 0;
     left: 5%;
 }
 .btnt{
@@ -207,4 +226,89 @@ a{
 .sm{
     display: flex;
     flex-direction: row;
+}
+.faculty{
+    width: 100%;
+    height: 20vw;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.f1{
+    height: 80%;
+    width: 25%;
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("Avinash.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 120% 100%;
+}
+.f2{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 3% 0 0 0 ;
+    box-sizing: border-box;
+    flex-direction: column;
+    border: 1px solid red;
+}
+.exp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1vw;
+    border: 1px solid green;
+}
+.box1{
+    font-size: 1.3vw;
+    display: flex;
+    justify-content: center;
+}
+.box2{
+    display: flex;
+    flex-direction: row;
+}
+.box3{
+    font-size: 1vw;
+    padding: 0 1vw;
+    border: 1px solid red;
+    margin: 0.5vw 1vw;
+}
+.name{
+    align-self: flex-start;
+    font-size: 2vw;
+    border-bottom: 0.1px solid #77787b;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    border: 0.1px solid greenyellow;
+    /* justify-content:center;
+    align-items: center; */
+    /* padding: 0 1vw; */
+    align-self: flex-start;
+    margin: 1vw 0 0 1vw;
+    /* box-sizing: border-box; */
+    /* position: absolute; */
+}
+.info div{
+    font-size: 1vw;
+    width: 15vw;
+}
+.more{
+    font-size: 1.3vw;
+    width: 5vw;
+    height: 2vw;
+    background-color: rgb(77, 77, 111);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
