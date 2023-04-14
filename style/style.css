@@ -228,14 +228,32 @@ a{
     display: flex;
     flex-direction: row;
 }
-.faculty{
-    width: 100%;
+.faculties{
+    width: 56.66vw;
     height: 20vw;
-    border: 1px solid red;
+    display: flex;
+    flex-direction:row;
+    position: relative;
+    overflow: hidden;
+}
+.faculty{
+    position: absolute;
+    width: 100%!important;
+    height: 20vw;
+    color:white !important;
+    /* border: 1px solid red; */
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    /* background: rgba( 255, 255, 255, 0.1 ); */
+    background :  linear-gradient(to left top, #3f3f3f, hsl(240, 3%, 82%));
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    border-radius: 0.5vw;
+    transition:0.2s ease-in-out;
+    animation: movefacultybox 1s ease 6 alternate ;
 }
 .f1{
     height: 80%;
@@ -244,10 +262,15 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 120% 100%;
+    border-radius:0.5vw;
     background-image: url("Avinash.jpeg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 120% 100%;
+    border-radius:0.5vw;
 }
 .f2{
     width: 70%;
@@ -258,7 +281,6 @@ a{
     padding: 3% 0 0 0 ;
     box-sizing: border-box;
     flex-direction: column;
-    border: 1px solid red;
 }
 .exp{
     display: flex;
@@ -266,7 +288,11 @@ a{
     justify-content: center;
     align-items: center;
     margin-top: 1vw;
-    border: 1px solid green;
+    background: rgba( 255, 255, 255, 0.1 );
+    box-shadow: 0 0.1vw 0.2vw 0 rgba(222, 222, 228, 0.37);
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    border-radius: 0.2vw;
 }
 .box1{
     font-size: 1.3vw;
@@ -280,8 +306,12 @@ a{
 .box3{
     font-size: 1vw;
     padding: 0 1vw;
-    border: 1px solid red;
     margin: 0.5vw 1vw;
+    background: rgba( 255, 255, 255, 0.1 );
+    box-shadow: 0 1px 2px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    border-radius: 0.1vw;
 }
 .name{
     align-self: flex-start;
@@ -291,25 +321,62 @@ a{
 .info{
     display: flex;
     flex-direction: row;
-    border: 0.1px solid greenyellow;
-    /* justify-content:center;
-    align-items: center; */
-    /* padding: 0 1vw; */
+    align-items: center;
     align-self: flex-start;
     margin: 1vw 0 0 1vw;
-    /* box-sizing: border-box; */
-    /* position: absolute; */
 }
 .info div{
-    font-size: 1vw;
-    width: 15vw;
+    font-size: 0.9vw;
 }
 .more{
     font-size: 1.3vw;
+    color: white;
     width: 5vw;
     height: 2vw;
-    background-color: rgb(77, 77, 111);
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 2vw 0 1vw;
+    box-shadow: 0 0.1vw 0.2vw rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    border-radius: 0.1vw;
+    background: rgba( 255, 255, 255, 0.1 );
+}
+.p2{
+     background-image: url("pardhi.jpeg");
+    background-size: 100% 110%;
+}
+.p3{
+    background-image: url("naidu.jpeg");
+    background-size: 120% 100%;
+}
+.p4{
+    background-image: url("heena.jpeg");
+    background-size: 100% 100%;
+}
+.p5{
+    background-image: url("Shweta.jpeg");
+    background-size: 100% 100%;
+}
+.p6{
+    background-image: url("zade.jpeg");
+    background-size: 104% 104%;
+}
+.btns{
+    height: 5vw;
+    width: 2vw;
+    background-color: rgba(255, 255, 255,0.5);
+    position: absolute;
+    top:7.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+.buttonPrev{
+    left: 0vw;
+}
+.buttonNext{
+    right: 0vw;
 }

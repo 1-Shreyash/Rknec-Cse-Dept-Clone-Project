@@ -22,3 +22,12 @@
 .boxp:hover{
     color:white;
 }
+.btns:hover{
+    background: rgba( 255, 255, 255, 0.9 );
+}
+
+@keyframes movefacultybox {
+    100%{
+        transform: translateX(-10vw);
+    }
+}

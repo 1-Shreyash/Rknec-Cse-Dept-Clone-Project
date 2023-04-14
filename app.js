@@ -31,3 +31,37 @@ const slideImage = () => {
 setInterval(function(){
     goNext()
 },4000,Infinity);
+
+
+const slides2 = document.querySelectorAll(".faculty")
+// console.log(slides)
+var counter2 = 0;
+slides2.forEach(
+    (faculty,index) => {
+        faculty.style.left = `${index * 100}%`
+    }
+)
+const goNext2 = () => {
+    if(counter2===5){
+        counter2=-1
+    }
+    counter2++
+    slideImage2()
+}
+const goPrev2 = () => {
+    if(counter2===0){
+        counter2=6
+    }
+    counter2--
+    slideImage2()
+}
+const slideImage2 = () => {
+    slides2.forEach(
+        (faculty) => {
+            faculty.style.transform = `translateX(-${counter2 * 100}%)`
+        }
+    )
+}
+// setInterval(function(){
+//     goNext2()
+// },10000);
