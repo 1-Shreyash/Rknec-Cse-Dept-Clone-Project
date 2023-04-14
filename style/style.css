@@ -253,7 +253,7 @@ a{
     -webkit-backdrop-filter: blur( 20px );
     border-radius: 0.5vw;
     transition:0.2s ease-in-out;
-    animation: movefacultybox 1s ease 6 alternate ;
+    animation: movefacultybox 1s ease 4 alternate ;
 }
 .f1{
     height: 80%;
