@@ -264,9 +264,7 @@ a{
     align-items: center;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 120% 100%;
     border-radius:0.5vw;
-    background-image: url("Avinash.jpeg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 120% 100%;
@@ -342,6 +340,10 @@ a{
     -webkit-backdrop-filter: blur( 20px );
     border-radius: 0.1vw;
     background: rgba( 255, 255, 255, 0.1 );
+}
+.p1{
+    background-image: url("Avinash.jpeg");
+    background-size: 120% 100%;
 }
 .p2{
      background-image: url("pardhi.jpeg");
